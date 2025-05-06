@@ -51,7 +51,15 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
-        </plugin>
+          <configuration>
+              <archive>
+                <manifest>
+                    <addClasspath>true</addClasspath>
+                    <mainClass>com.ibm.App</mainClass> <!-- Replace with your actual main class -->
+                    </manifest>
+              </archive>
+           </configuration>
+           </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
