@@ -10,6 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         System.out.println("wlcom to  devops lab");
+        System.out.println("this is devops ansible project");
         
     }
 }
